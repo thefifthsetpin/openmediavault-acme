@@ -8,7 +8,7 @@ XB-Plugin-Section: utilities
 
 Package: openmediavault-acme
 Architecture: all
-Depends: openmediavault (>= 3.0.26),
+Depends: openmediavault (>= 3.0.26), git, curl, wget
          ${misc:Depends}
 Description: Generate free and valid SSL certificates for OMV
  Let's Encrypt allows you to to automatically generate free SSL certificates that you can use to secure server.
